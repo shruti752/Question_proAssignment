@@ -1,19 +1,14 @@
 package com.HackerNewsApplication.HackerNewsApplication.service;
 
-import com.HackerNewsApplication.HackerNewsApplication.Dao.StoryDto;
 import com.HackerNewsApplication.HackerNewsApplication.entity.Story;
 import com.HackerNewsApplication.HackerNewsApplication.jpa.StoryRepository;
-import com.HackerNewsApplication.HackerNewsApplication.mapper.StoryMapper;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import org.hibernate.internal.build.AllowSysOut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 @Service

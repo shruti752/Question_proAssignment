@@ -1,6 +1,5 @@
 package com.HackerNewsApplication.HackerNewsApplication.controller;
 
-import com.HackerNewsApplication.HackerNewsApplication.Dao.StoryDto;
 import com.HackerNewsApplication.HackerNewsApplication.entity.Comment1;
 import com.HackerNewsApplication.HackerNewsApplication.entity.Story;
 import com.HackerNewsApplication.HackerNewsApplication.service.CommentService;
